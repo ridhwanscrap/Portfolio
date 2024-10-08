@@ -60,16 +60,21 @@
     <div class="hero" id="about">
         <div class="hero__left">
             <div class="hero__left--img">
-                <img src="" alt="">
+                <img src="./img/logo.jpg" alt="">
             </div>
         </div>
         <div class="hero__right">
-            <h1 class="hero__right--title">
-                Hi!!!
-            </h1>
-            <h1 class="hero__right--title">
-                I'm <span class="highlight">Ridwan</span>
-            </h1>
+            <div class="wrapper">
+                <h1 class="hero__right--title static-txt">
+                    I'm
+                </h1>
+                <ul class="dynamic-txts">
+                    <li><span>Ridwan</span></li>
+                    <li><span>Designer</span></li>
+                    <li><span>Developer</span></li>
+                    <li><span>Freelancer</span></li>
+                </ul>
+            </div>
             <p class="hero__right--pera">I'm a passionate MERN stack web developer with a strong foundation in
                 JavaScript, React, Node.js, and Express.js. I've been crafting dynamic and user-friendly web
                 applications since 2023 and am constantly honing my skills to stay updated with the latest industry
@@ -85,25 +90,90 @@
 
     <div class="resume" id="resume">
         <div class="resume__left">
-            <div class="resume__container">
-                <div class="subtitle__container">
-                    <h3>Education</h3>
-                    <div class="line">
-                        <div class="innerline"></div>
-                    </div>
+            <div class="subtitle__container">
+                <h3>Education</h3>
+                <div class="line">
+                    <div class="innerline"></div>
                 </div>
             </div>
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">August 2024 to Present</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__institution">AIUB</h2>
+                    <h3 class="resume__designation">B.Sc. in CSE</h3>
+                </div>
+            </div>
+
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">March 2022 to Aug 2023</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__institution">Milestone College</h2>
+                    <h3 class="resume__designation">H.S.C.</h3>
+                </div>
+            </div>
+
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">Jan 2016 to Nov
+                        2021</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__institution">Uttara High School</h2>
+                    <h3 class="resume__designation">S.S.C.</h3>
+                </div>
+            </div>
+
+            
         </div>
 
         <div class="resume__right">
-            <div class="resume__container">
-                <div class="subtitle__container">
-                    <h3>Experience</h3>
-                    <div class="line">
-                        <div class="innerline"></div>
-                    </div>
+            <div class="subtitle__container">
+                <h3>Experience</h3>
+                <div class="line">
+                    <div class="innerline"></div>
                 </div>
             </div>
+
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">August 2024 to Present</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__company">ACI Logistics Ltd.</h2>
+                    <h3 class="resume__designation">Software Engineer</h3>
+                </div>
+            </div>
+
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">July 2022 to April 2023</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__institution">NUET</h2>
+                    <h3 class="resume__designation">Web Eeveloper</h3>
+                </div>
+            </div>
+
+            <div class="resume__list">
+                <div class="resume__duration__container">
+                    <div class="resume__round"></div>
+                    <div class="resume__duration">August 2020 to May 2021</div>
+                </div>
+                <div class="resume__description">
+                    <h2 class="resume__institution">Freelance Developer</h2>
+                    <h3 class="resume__designation">Full-stack Developer</h3>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -175,96 +245,139 @@
         <div class="skill__sub__section">
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Programming</h2>
-                <span class="skill">Javascript</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
+                <div class="skill__sub__prog">
 
-                <span class="skill">Python</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">JAva</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Sql</span>
-                <span class="percentage">85%</span>
+                    <span class="skill">Javascript</span>
+                    <span class="percentage">90%</span>
+                </div>
+                <progress class="progress" value="90" max="100">90%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Python</span>
+                    <span class="percentage">60%</span>
+                </div>
+                <progress class="progress" value="60" max="100">60%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Java</span>
+                    <span class="percentage">75%</span>
+                </div>
+                <progress class="progress" value="75" max="100">75%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Sql</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
             </div>
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Javascript Library</h2>
-                <span class="skill">React JS</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">React JS</span>
+                    <span class="percentage">90%</span>
+                </div>
+                <progress class="progress" value="90" max="100">90%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">React Native</span>
+                    <span class="percentage">80%</span>
+                </div>
+                <progress class="progress" value="80" max="100">80%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Next Js</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">React Native</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Next Js</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Chart Js</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Chart Js</span>
+                    <span class="percentage">70%</span>
+                </div>
+                <progress class="progress" value="70" max="100">70%</progress>
             </div>
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Frontend</h2>
-                <span class="skill">Tailwind CSS</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Tailwind CSS</span>
+                    <span class="percentage">90%</span>
+                </div>
+                <progress class="progress" value="90" max="100">90%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Bootstrap</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Bootstrap</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Meterial Ui</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">SCSS</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Meterial Ui</span>
+                    <span class="percentage">80%</span>
+                </div>
+                <progress class="progress" value="80" max="100">80%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">SCSS</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
             </div>
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Backend</h2>
-                <span class="skill">Node JS</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Node JS</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">Express JS</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Express JS</span>
+                    <span class="percentage">65%</span>
+                </div>
+                <progress class="progress" value="65" max="100">65%</progress>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">MongoDB</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">MongoDB</span>
-                <span class="percentage">85%</span>
-                <progress class="progress" value="85" max="100">85%</progress>
-
-                <span class="skill">REST API, JSON</span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">REST API, JSON</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
 
             </div>
 
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Tools</h2>
-                <span class="skill">Git, Github</span>
-                <span class="percentage"> 80% </span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Git, Github</span>
+                    <span class="percentage"> 80% </span>
+                </div>
                 <progress class="progress" value="80" max="100">80%</progress>
-
-                <span class="skill">Figma, Adobe XD, PhotoShop, VS Code </span>
-                <span class="percentage">80%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Figma, Adobe XD, PhotoShop, VS Code </span>
+                    <span class="percentage">80%</span>
+                </div>
                 <progress class="progress" value="80" max="100">80%</progress>
-
-                <span class="skill">Firebase
-                </span>
-                <span class="percentage">75%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Firebase</span>
+                    <span class="percentage">75%</span>
+                </div>
                 <progress class="progress" value="75" max="100">75%</progress>
-
-                <span class="skill">Netlify, Vercel, Heroku, Railway, Render, AWS
-                </span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    <span class="skill">Netlify, Vercel, Render, AWS
+                    </span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="85" max="100">85%</progress>
 
             </div>
@@ -272,22 +385,28 @@
             <div class="skill__prog">
                 <h2 class="skill__prog--title">Technologies
                 </h2>
-                <span class="skill">Payment Gateway
-                </span>
-                <span class="percentage">90%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Payment Gateway</span>
+                    <span class="percentage">90%</span>
+                </div>
                 <progress class="progress" value="90" max="100">90%</progress>
-
-                <span class="skill">JWT</span>
-                <span class="percentage">80%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">JWT</span>
+                    <span class="percentage">80%</span>
+                </div>
                 <progress class="progress" value="80" max="100">80%</progress>
-
-                <span class="skill">Map API</span>
-                <span class="percentage">80%</span>
+                <div class="skill__sub__prog">
+                    
+                    <span class="skill">Map API</span>
+                    <span class="percentage">80%</span>
+                </div>
                 <progress class="progress" value="80" max="100">80%</progress>
-
-                <span class="skill">Email & SMS
-                </span>
-                <span class="percentage">85%</span>
+                <div class="skill__sub__prog">
+                    <span class="skill">Email & SMS</span>
+                    <span class="percentage">85%</span>
+                </div>
                 <progress class="progress" value="90" max="100">90%</progress>
             </div>
         </div>
@@ -379,12 +498,12 @@
                 <div class="innerline"></div>
             </div>
         </div>
-        <div class="subtitle__container contact--subtitle">
+        <!-- <div class="subtitle__container contact--subtitle">
             <h3>How can I help you ?</h3>
             <div class="line">
                 <div class="innerline"></div>
             </div>
-        </div>
+        </div> -->
         <div class="contact__sub__container">
             <div class="contact__sub__container--info">
                 <a href="tel:+8801600930669">+8801600930669</a>
@@ -392,6 +511,12 @@
                     <a href="mailto:ridhwanalam11@gmail.com">ridhwanalam11@gmail.com</a>
             </div>
             <div class="contact__sub__container--appointment">
+                <div class="subtitle__container contact--subtitle">
+                    <h3>How can I help you ?</h3>
+                    <div class="line">
+                        <div class="innerline"></div>
+                    </div>
+                </div>
                 <form>
                     <input class="input--field" placeholder="Full Name" type="text" name="name" id="name">
 
@@ -400,11 +525,11 @@
                     <input class="input--field" placeholder="Subject" type="text" name="subject" id="subject">
 
                 </form>
-                <button class="contact--btn">Send Message</button>     
             </div>
             <div class="contact__sub__container--text">
-                
+                <textarea class="input--field" placeholder="Message" name="message" id="message" cols="30" rows="8"></textarea>
             </div>
+            <button class="contact--btn">Send Message</button>     
         </div>
     </div>
     <!-- js -->

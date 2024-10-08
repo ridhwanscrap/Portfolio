@@ -4,7 +4,7 @@
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background-color: rgba(0, 0,0 , 0.1);
+        background-color: rgb(0, 0, 0, 0.3);
         backdrop-filter: blur(15px);
         width: 100%;
         border-radius: 10px;
@@ -19,6 +19,7 @@
 
     .nav-menu.active {
         left: 0;
+        /* background-color: red; */
     }
 
     .nav-item {
@@ -41,5 +42,154 @@
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .hero{
+        height: 80vh;
+        /* flex-direction: column; */
+    }
+
+    .hero__right{
+        margin-top: 10rem;
+    }
+
+    .hero__right--title{
+        font-size: 2.5rem;
+    }
+    .dynamic-txts li{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+
+    .dynamic-txts li span{
+        position: relative;
+        margin: 5px 0;
+        line-height: 60px;
+    }
+    .wrapper .dynamic-txts{
+        margin-left: 1rem;
+        height: 60px;
+        line-height: 70px;
+        overflow: hidden;  
+    }
+    @keyframes slide {
+        100%{
+          top: -270px;
+        }
+    }
+    /* .wrapper .dynamic-txts{
+        height: 3rem;
+        line-height: 3rem;
+    } */
+
+    .hero__right--pera{
+        text-align:justify;
+        font-size: 1.2rem;
+    }
+
+    .resume{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .resume__right, .resume__left{
+        width: 80%;
+    }
+    .certificate__card{
+        width: 80%;
+    }
+
+    .portfolio__card{
+        width: 40%;
+    }
+
+    .portfolio__card--description{
+        padding: 1rem;
+        height: auto;
+    }
+    .contact__sub__container--info{
+    width: 100%;
+    text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .hero__right--pera{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero{
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .hero__right, .hero__left{
+        height: 50%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero__left--img{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .hero__right{
+        height: auto;
+        padding: 1rem;
+    }
+
+    .resume .subtitle__container{
+        margin: 1.5rem auto;
+    }
+
+    .resume{
+        height: fit-content;
+    }
+    .resume__right, .resume__left{
+        width: 90%;
+    }
+
+    .resume__list{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;   */
+    }
+   
+    .certificatation{
+        margin: 2rem 0;
+    }
+
+    .skill__prog{
+        width: 100%;
+    }
+
+    .portfolio{
+        margin: 2rem;
+    }
+
+    .portfolio__card{
+        width: 100%;
+        margin: 1rem 0;
+        
+    }
+    .portfolio__card--img{
+        height: 40%;
+    }
+
+    .portfolio__card--description{
+        height: 60%;
+        margin: 1rem .5rem;
+    }
+
+    .contact__sub__container--appointment, .contact__sub__container--text{
+        width: 100%;
+    }
+
 
 }
