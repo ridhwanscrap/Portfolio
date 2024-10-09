@@ -208,6 +208,9 @@ a {
     font-weight: 500;
     color: var(--secondary-g);
     text-align: justify;
+    animation: appear liner;
+    animation-timeline: view();
+    animation-range: entry 0;
 }
 
 .hero__right--pera::first-letter{
@@ -452,7 +455,6 @@ a {
 
 .portfolio{
     margin: 5rem;
-    /* background: linear-gradient(to right,#D91656,#EE66A6,#FFEB55); */
 }
 
 .portfolio__sub__container{
@@ -573,4 +575,24 @@ a {
     box-shadow: 2px 50px 100px #D91656;
     transform: translateY(-.5rem);
     transition: all 0.35s ease-in;
+}
+
+
+.block{
+    animation: appear liner;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
 }
