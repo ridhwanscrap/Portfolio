@@ -112,12 +112,12 @@ a {
 }
 
 .hero__left--img{
-    height: 50%;
     width: 50%;
+    height: 50%;
     /* background-image: url(/img/logo.jpg); */
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
+    /* background-position: center; */
+    /* background-size: cover; */
+    border-radius: 50%; 
     display: flex;
     align-items: center;
     justify-content: center;
