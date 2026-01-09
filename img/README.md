@@ -1,2 +1,2 @@
 live server :
-https://ridhwanalam-portfolio.netlify.app/
+https://ridhwanssssssssss.netlify.app/
